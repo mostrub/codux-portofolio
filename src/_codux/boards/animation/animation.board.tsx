@@ -3,5 +3,8 @@ import { Animation } from '../../../components/animation/animation';
 
 export default createBoard({
     name: 'Animation',
-    Board: () => <Animation />
+    Board: () => <Animation />,
+    environmentProps: {
+        windowWidth: 534
+    }
 });

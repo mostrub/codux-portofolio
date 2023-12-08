@@ -3,9 +3,9 @@ import { ContactForm } from '../../../components/contact-form/contact-form';
 
 export default createBoard({
     name: 'ContactForm',
-    Board: () => <ContactForm />,
+    Board: () => <img src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" alt="" />,
     environmentProps: {
-        windowWidth: 942,
+        windowWidth: 1104,
         canvasWidth: 525,
         windowHeight: 729,
     },
