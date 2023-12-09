@@ -8,5 +8,6 @@ export default createBoard({
         windowWidth: 1104,
         canvasWidth: 525,
         windowHeight: 729,
+        windowBackgroundColor: '#c8a3a3'
     },
 });
